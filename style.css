@@ -1,2 +1,14 @@
-body{
-  bac
+body {
+            background-color: #c5a8ec;
+        }  
+        h1 {
+            text-align: center;
+            color: #426bc2;
+        }
+        footer{
+           text-align: center;
+            color: #426bc2;
+        }
+        p{
+           color: #426bc2;
+        }
