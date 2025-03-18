@@ -19,16 +19,22 @@
   figcaption{
    color: #426bc2;
         }
-  .image-container {
+ .image-container {
       display: flex;
       justify-content: space-between; /* Distribute images with space between them */
+      gap: 10px; /* Optional space between images */
     }
-    .image-container img {
-      margin-right: 10px; /* Optional space between images */
+    .image-container figure {
+      margin: 0; /* Remove default margins for better alignment */
+    }
+    img {
+      width: 250px;
+      height: 250px;
     }
   </style>
 </head>
 <body>
+ <div class="image-container">
  <header>
   <h1>Cakes</h1>
  </header>
@@ -56,5 +62,6 @@
 <img src="https://cdn.pixabay.com/photo/2015/12/15/09/37/cake-1093981_960_720.jpg" width="250px" height="250px">
 <figcaption>Cheesecake – Creamy and dense, with a tangy flavor, often topped with fruit or other toppings.</figcaption>
  </figure>
+</div>
  </body>
 </html>
