@@ -1,6 +1,8 @@
 body {
             background-color: #c5a8ec;
-        }  
+         
+     font-family: Lucida Handwriting, cursive;
+} 
         h1 {
             text-align: center;
             color: #426bc2;
@@ -8,7 +10,11 @@ body {
         footer{
            text-align: center;
             color: #426bc2;
+            font-family: Lucida Handwriting, cursive;
         }
         p{
            color: #426bc2;
         }
+   
+      
+
