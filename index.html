@@ -48,33 +48,19 @@
             background-color: #717171;
         }
 
-        /* Fading animation */
-       @keyframes bounce {
+   @keyframes slide-from-right {
   0% {
-    transform: translateY(-30px);
-  }
-  50% {
-    transform: translateY(15px);
+    transform: translateX(100%); /* Slide from off-screen to the right */
   }
   100% {
-    transform: translateY(0);
+    transform: translateX(0); /* End in normal position */
   }
 }
 
-.bounce-animation {
-  animation: bounce 1s ease-in-out;
+.slide-right {
+  animation: slide-from-right 1s ease-out;
 }
 
-
-        @keyframes fade {
-            from {opacity: .4} 
-            to {opacity: 1}
-        }
-
-        /* On smaller screens, decrease text size */
-        @media only screen and (max-width: 300px) {
-            .text {font-size: 11px}
-        }
     </style>
 </head>
 <body>
